@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'notifications/index'
+
   resources :poems, only: [:index, :show]
   resources :relationships, only: [:create, :destroy]
 
