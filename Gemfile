@@ -59,7 +59,7 @@ gem 'faker'
 group :development do
   gem 'letter_opener_web'
 
-  # gem 'dotenv-rails'
+  gem 'dotenv-rails'
 
 end
 
